@@ -1,8 +1,8 @@
-FROM ghcr.io/cedar2025/xboard:d69517b
+FROM ghcr.io/cedar2025/xboard:d63dc10
 
 WORKDIR /
 
-COPY scripts/xboard.sh .
+COPY xboard.sh .
 
 RUN chmod +x /xboard.sh
 
