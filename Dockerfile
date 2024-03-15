@@ -1,4 +1,4 @@
-FROM ghcr.io/cedar2025/xboard:9241369
+FROM ghcr.io/cedar2025/xboard:120a542
 
 WORKDIR /
 
